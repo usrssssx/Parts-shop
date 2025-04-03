@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width='device-width', initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+    <link rel="icon" href="images/Protofavicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Proto | Магазин Авто Запчастей</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <a href="index.html" class="nav-logo"><img src="images/PROTOlogo.png"></a>
+        </div>
+
+        <div class="nav-button">
+            <button class="nav-btn" onclick="window.location.href = 'products.html'">Товары</button>
+        </div>
+
+        <ul class="nav-links">
+            <li class="link"><a href="about.html">О нас</a></li>
+            <li class="link"><a href="contact.html">Клиентам</a></li>
+        </ul>
+
+
+        <div class="nav-icons">
+
+            <div class="support">
+                <div class="number">
+                    <span><i class="ri-phone-line"></i><b>+7 (922) 771-88-04</b></span>
+                </div>
+                <div class="mail">
+                    <span><i class="ri-mail-line"></i><a class="ref-mail" href="mailto:sokolovskiy@list.ru"> sokolovskiy@list.ru</a></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="social">
+            <div class="container" id="container">
+                <button id="open" class="open-btn">
+                    <i class="ri-link"></i>
+                </button>
+                <a href= "https://t.me/Protomera" class="tg" target="_blank"><i class="ri-telegram-line"></i></a>
+                <a href="https://wa.me/+79227718804" class="wa" target="_blank"><i class="ri-whatsapp-line"></i></a>
+                <a href="#" class="x" id="close"><i class="ri-close-line"></i></a>
+                <a href="https://vk.com/Protomera" class="vk" target="_blank"><i class="ri-vk-line"></i></a>
+                <a href="..." class="inst" target="_blank"><i class="ri-instagram-line"></i></a>
+            </div>
+        </div>
+        <div class="basket">
+            <form action="cart.php" method="post">
+                <i class="ri-shopping-basket-line"></i><br>
+                <input  type="submit" value="Корзина" style="background-color: white; border: 0">
+            </form>
+        </div>
+    </nav>
+    <main class="boom">
+        <div class="about-info">
+            <div class="about-image"></div>
+            <div class="about-text">
+                <h1 style="text-align: center;">О нас</h1>
+                <br>
+                <p>Наш сайт автозапчастей имеет богатую историю, которая<br>
+                    насчитывает более 3 лет в индустрии автомобильных<br>
+                    запчастей. Мы начинали как небольшой семейный бизнес,<br>
+                    специализирующийся на поставках запчастей для конкретных марок<br>
+                    и моделей автомобилей. Со временем мы расширили наш<br>
+                    ассортимент, включив в него широкий спектр запчастей для<br>
+                    различных транспортных средств.
+                </p>
+                <br>
+                <p>За эти годы мы зарекомендовали себя как надежный и авторитетный<br>
+                    источник высококачественных автозапчастей. Наша команда<br>
+                    опытных специалистов по запчастям всегда готова помочь клиентам<br>
+                    найти именно то, что им нужно, для ремонта или обслуживания их автомобилей.
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer style="margin-top: 200px;">
+        <div class="foot">
+            <div class="firma">
+                <a href="index.html" class="nav-logo"><img src="images/PROTOlogo.png"></a>
+                <h2>С нами вы знаете, как найти выход из любой ситуации</h2>
+                <p>Продажа автозапчастей по всей России</p>
+            </div>
+            <div class="contact">
+                <h3>Контакты</h3>
+                <p><i class="ri-phone-line"></i>+7 (922) 771-88-04</p>
+                <p><i class="ri-mail-line"></i><a class="ref-mail" href="mailto:sokolovskiy@list.ru"> sokolovskiy@list.ru</a></p>
+            </div>
+            <div class="graph">
+                <div class="forma">
+                    <a class="ref-mail" href="mailto:proto@webref.ru">Форма обратной связи</a>
+                </div>
+                <div class="social">
+                    <a href="https://vk.com/Protomera" class="vk" target="_blank"><i class="ri-vk-line"></i></a>
+                    <a href="https://t.me/Protomera" class="tg" target="_blank"><i class="ri-telegram-line"></i></a>
+                </div>
+                <div class="time">
+                    <h5>Время работы</h5>
+                    пн.-сб. с 8:00-20:00
+                </div>
+            </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

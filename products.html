@@ -1,0 +1,2494 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width='device-width', initial-scale=1.0">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+        <link rel="icon" href="images/Protofavicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <title>Proto | Магазин Авто Запчастей</title>
+    </head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="index.html" class="nav-logo"><img src="images/PROTOlogo.png"></a>
+        </div>
+        
+        <div class="nav-button">
+            <button class="nav-btn" onclick="window.location.href = 'index.html'">Главная</button>
+        </div>
+
+        <ul class="nav-links">
+            <li class="link"><a href="about.html">О нас</a></li>
+           <li class="link"><a href="contact.html">Клиентам</a></li>
+       </ul>
+
+
+       <div class="nav-icons">
+     
+            <div class="support">
+                <div class="number">
+                    <span><i class="ri-phone-line"></i><b>+7 (922) 771-88-04</b></span>
+                </div>
+                <div class="mail">
+                    <span><i class="ri-mail-line"></i><a class="ref-mail" href="mailto:sokolovskiy@list.ru"> sokolovskiy@list.ru</a></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="social">
+            <div class="container" id="container">
+                <button id="open" class="open-btn">
+                    <i class="ri-link"></i>
+                </button>
+                <a href= "https://t.me/Protomera" class="tg" target="_blank"><i class="ri-telegram-line"></i></a>
+                <a href="https://wa.me/+79227718804" class="wa" target="_blank"><i class="ri-whatsapp-line"></i></a>
+                <a href="#" class="x" id="close"><i class="ri-close-line"></i></a>
+                <a href="https://vk.com/Protomera" class="vk" target="_blank"><i class="ri-vk-line"></i></a>
+                <a href="..." class="inst" target="_blank"><i class="ri-instagram-line"></i></a>
+            </div>
+        </div>
+
+        <div class="basket">
+            <form action="cart.php" method="post">
+                <i class="ri-shopping-basket-line"></i><br>
+                <input  type="submit" value="Корзина" style="background-color: white; border: 0">
+            </form>
+        </div>
+
+    </nav>
+    <section class="parts">
+        <h2>Автозапчасти</h2>
+        <div class="car-cards">
+            <div class="car-card">
+                <a href="#heavy" alt="Mythrill" target="_self">
+                <div class="car-wrapper">
+                    <img src="images/heavy.png" class="cover-image" />
+                    <h1 style="font-size: 18px;">Грузовые</h1> 
+                </a>
+                </div>
+            </div>
+            <div class="car-card">
+                <a href="#track" alt="Mythrill" target="_self">
+                <div class="car-wrapper">
+                    <img src="images/tracktor.png" class="cover-image" />
+                    <h1 style="font-size: 18px;">Трактора</h1> 
+                </a>
+                </div>
+            </div>
+            <div class="car-card">
+                <a href="#light" alt="Mythrill" target="_self">
+                <div class="car-wrapper">
+                    
+                    <img src="images/lights.png" class="cover-image"/>
+                    <h1 style="font-size: 18px;">Легковые</h1> 
+                </a>
+                </div>
+            </div>
+            <div class="car-card">
+                <a href="#selo" alt="Mythrill" target="_self">
+                <div class="car-wrapper">
+                    
+                    <img src="images/selo.png" class="cover-image" />
+                    <h1 style="font-size: 18px;">Сельхозтехника</h1> 
+                </a>
+                </div>
+            </div>
+            <div class="car-card">
+                <a href="#spec" alt="Mythrill" target="_self">
+                <div class="car-wrapper">
+                    
+                    <img src="images/spec.png" class="cover-image" />
+                    <h1 style="font-size: 18px;">Спецтехника</h1> 
+                </a>
+                </div>
+            </div>
+            <div class="car-card">
+                <a href="#other" alt="Mythrill" target="_self">
+                <div class="car-wrapper">
+                    
+                    <img src="images/other.png" class="cover-image" />
+                    <h1 style="font-size: 18px;">Другое</h1>
+                </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="best-categories">
+        <h2><a name="heavy">Категории | Грузовые</a></h2>
+        <div class="cards">
+            <div class="card">
+                <a href="#start1" alt="Mythrill" target="_self">
+                    <div class="card-icon">
+                        <i class="ri-car-line"></i> 
+                        <h1 style="font-size: 18px; margin-top: 22px;">Стартеры и комплектующие</h1>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#termostat1" alt="Mythrill" target="_self">
+                    <div class="card-icon">
+                        <i class="ri-car-line"></i> 
+                        <h1 style="font-size: 18px; margin-top: 32px;">Термостаты</h1>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#datchik1" alt="Mythrill" target="_self">
+                    <div class="card-icon">
+                        <i class="ri-car-line"></i> 
+                        <h1 style="font-size: 18px; margin-top: 22px;">Датчики<br> и комбинации приборов</h1>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#generator1" alt="Mythrill" target="_self">
+                    <div class="card-icon">
+                        <i class="ri-car-line"></i> 
+                        <h1 style="font-size: 18px; margin-top: 32px;">Генераторы</h1>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#svet1" alt="Mythrill" target="_self">
+                    <div class="card-icon">
+                        <i class="ri-car-line"></i> 
+                        <h1 style="font-size: 18px; margin-top: 32px;">Светотехника</h1>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#electro1" alt="Mythrill" target="_self">
+                    <div class="card-icon">
+                        <i class="ri-car-line"></i> 
+                        <h1 style="font-size: 18px; margin-top: 32px;">Электродвигатели</h1>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        
+    <h1><a name="start1">Стартеры и комплектующие</a></h1>
+    <div class="products">
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">1563.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Стартер<br>для Грузовых машин</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name='product_id' value="<?php echo 1; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">1563.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Стартер<br>для Грузовых машин</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 1; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">1563.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Стартер<br>для Грузовых машин</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 1; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">1563.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Стартер<br>для Грузовых машин</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 1; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+    </div>
+    <h1 style="margin-top: 41px;"><a name="termostat1">Термостаты</a></h1>
+    <div class="products">
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">2560.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Термостаты<br>для Грузовых машин</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>TRS24R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 2; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">2560.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Термостаты<br>для Грузовых машин</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>TRS24R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 2; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+           <h1 style="font-size: 20px;margin-top: 10;">2560.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Термостаты<br>для Грузовых машин</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>TRS24R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 2; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">2560.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Термостаты<br>для Грузовых машин</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>TRS24R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 2; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+    </div>
+    <h1 style="margin-top: 45px;"><a name="datchik1">Датчики и комбинации приборов</a></h1>
+    <div class="products">
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">4520.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Датчики<br>для Грузовых машин</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>GO53R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 3; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">4520.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Датчики<br>для Грузовых машин</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>GO53R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 3; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">4520.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Датчики<br>для Грузовых машин</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>GO53R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 3; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">4520.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Датчики<br>для Грузовых машин</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>GO53R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 3; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+    </div>
+    <h1 style="margin-top: 45px;"><a name="generator1">Генераторы</a></h1>
+    <div class="products">
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">4555.00 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Генератор<br>для Грузовых машин</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>BR32E-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 4; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">4555.00 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Генератор<br>для Грузовых машин</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>BR32E-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 4; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">4555.00 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Генератор<br>для Грузовых машин</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>BR32E-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 4; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">4555.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Генератор<br>для Грузовых машин</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>BR32E-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 4; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+    </div>
+    <h1 style="margin-top: 45px"><a name="svet1">Светотехника</a></h1>
+    <div class="products">
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">4215.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Фара светодиодная<br>для Грузовых машин</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 5; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">4215.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Фара светодиодная<br>для Грузовых машин</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 5; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">4215.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Фара светодиодная<br>для Грузовых машин</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 5; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">4215.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Фара светодиодная<br>для Грузовых машин</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 5; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+    </div>
+    <h1 style="margin-top: 45px"><a name="electro1">Электродвигатели</a></h1>
+    <div class="products">
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">2415.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Батарея<br>для Грузовых машин</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 6; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">2415.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Батарея<br>для Грузовых машин</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 6; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">2415.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Батарея<br>для Грузовых машин</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 6; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">2415.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Батарея<br>для Грузовых машин</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 6; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form> 
+        </div>
+    </div>
+    </section>
+
+
+    <section class="best-categories">
+        <h2><a name="track">Категории | Трактора</a></h2>
+        <div class="cards">
+            <div class="card">
+                <a href="#start2" alt="Mythrill" target="_self">
+                    <div class="card-icon">
+                        <i class="ri-car-line"></i> 
+                        <h1 style="font-size: 18px; margin-top: 22px;">Стартеры и комплектующие</h1>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#termostat2" alt="Mythrill" target="_self">
+                    <div class="card-icon">
+                        <i class="ri-car-line"></i> 
+                        <h1 style="font-size: 18px; margin-top: 32px;">Термостаты</h1>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#datchik2" alt="Mythrill" target="_self">
+                    <div class="card-icon">
+                        <i class="ri-car-line"></i> 
+                        <h1 style="font-size: 18px; margin-top: 22px;">Датчики<br> и комбинации приборов</h1>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#generator2" alt="Mythrill" target="_self">
+                    <div class="card-icon">
+                        <i class="ri-car-line"></i> 
+                        <h1 style="font-size: 18px; margin-top: 32px;">Генераторы</h1>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#svet2" alt="Mythrill" target="_self">
+                    <div class="card-icon">
+                        <i class="ri-car-line"></i> 
+                        <h1 style="font-size: 18px; margin-top: 32px;">Светотехника</h1>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#electro2" alt="Mythrill" target="_self">
+                    <div class="card-icon">
+                        <i class="ri-car-line"></i> 
+                        <h1 style="font-size: 18px; margin-top: 32px;">Электродвигатели</h1>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+    <h1><a name="start2">Стартеры и комплектующие</a></h1>
+    <div class="products">
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">2145.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Стартер<br>для Трактора</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>GO53R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 7; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">2145.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Стартер<br>для Трактора</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>GO53R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 7; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">2145.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Стартер<br>для Трактора</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>GO53R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 7; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">2145.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Стартер<br>для Трактора</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>GO53R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 7; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+    </div>
+    <h1 style="margin-top: 45px;"><a name="termostat2">Термостаты</a></h1>
+    <div class="products">
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">1111.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Термостаты<br>для Трактора</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>TRS24R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 8; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">1111.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Термостаты<br>для Трактора</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>TRS24R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 8; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">1111.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Термостаты<br>для Трактора</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>TRS24R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 8; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">1111.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Термостаты<br>для Трактора</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>TRS24R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 8; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+    </div>
+    <h1 style="margin-top: 45px;"><a name="datchik2">Датчики и комбинации приборов</a></h1>
+    <div class="products">
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">3333.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Датчики <br>для Трактора</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 9; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">3333.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Датчики <br>для Трактора</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 9; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">3333.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Датчики <br>для Трактора</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 9; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">3333.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Датчики <br>для Трактора</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 9; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+    </div>
+    <h1 style="margin-top: 45px;"><a name="generator2">Генераторы</a></h1>
+    <div class="products">
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">3422.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Генератор <br>для Трактора</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 10; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">3422.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Генератор <br>для Трактора</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 10; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">3422.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Генератор <br>для Трактора</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 10; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">3422.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Генератор <br>для Трактора</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 10; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+    </div>
+    <h1 style="margin-top: 45px"><a name="svet2">Светотехника</a></h1>
+    <div class="products">
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">10000.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Фара светодиодная <br>для Трактора</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 11; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">10000.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Фара светодиодная <br>для Трактора</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 11; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">10000.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Фара светодиодная <br>для Трактора</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 11; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">10000.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Фара светодиодная <br>для Трактора</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 11; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+    </div>
+    <h1 style="margin-top: 45px"><a name="electro2">Электродвигатели</a></h1>
+    <div class="products">
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">34222.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Батарея <br>для Трактора</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 12; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">34222.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Батарея <br>для Трактора</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 12; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">34222.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Батарея <br>для Трактора</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 12; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">34222.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Батарея <br>для Трактора</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 12; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+    </div>
+    </section>
+
+
+
+        <section class="best-categories">
+        <h2><a name="light">Категории | Легковые</a></h2>
+        <div class="cards">
+            <div class="card">
+                <a href="#start3" alt="Mythrill" target="_self">
+                    <div class="card-icon">
+                        <i class="ri-car-line"></i> 
+                        <h1 style="font-size: 18px; margin-top: 22px;">Стартеры и комплектующие</h1>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#termostat3" alt="Mythrill" target="_self">
+                    <div class="card-icon">
+                        <i class="ri-car-line"></i> 
+                        <h1 style="font-size: 18px; margin-top: 32px;">Термостаты</h1>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#datchik3" alt="Mythrill" target="_self">
+                    <div class="card-icon">
+                        <i class="ri-car-line"></i> 
+                        <h1 style="font-size: 18px; margin-top: 22px;">Датчики<br> и комбинации приборов</h1>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#generator3" alt="Mythrill" target="_self">
+                    <div class="card-icon">
+                        <i class="ri-car-line"></i> 
+                        <h1 style="font-size: 18px; margin-top: 32px;">Генераторы</h1>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#svet3" alt="Mythrill" target="_self">
+                    <div class="card-icon">
+                        <i class="ri-car-line"></i> 
+                        <h1 style="font-size: 18px; margin-top: 32px;">Светотехника</h1>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#electro3" alt="Mythrill" target="_self">
+                    <div class="card-icon">
+                        <i class="ri-car-line"></i> 
+                        <h1 style="font-size: 18px; margin-top: 32px;">Электродвигатели</h1>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+    <h1><a name="start3">Стартеры и комплектующие</a></h1>
+    <div class="products">
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">9999.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Стартер <br>для Легковой машины</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>TRS24R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 13; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">9999.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Стартер <br>для Легковой машины</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>TRS24R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 13; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">9999.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Стартер <br>для Легковой машины</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>TRS24R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 13; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">9999.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Стартер <br>для Легковой машины</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>TRS24R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 13; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+    </div>
+    <h1 style="margin-top: 45px;"><a name="termostat3">Термостаты</a></h1>
+    <div class="products">
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">2444.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Термостат <br>для Легковой машины</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 14; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">2444.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Термостат <br>для Легковой машины</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 14; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">2444.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Термостат <br>для Легковой машины</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 14; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">2444.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Термостат <br>для Легковой машины</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 14; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+    </div>
+    <h1 style="margin-top: 45px;"><a name="datchik3">Датчики и комбинации приборов</a></h1>
+    <div class="products">
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">2111.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Датчик <br>для Легковой машины</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 15; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">2111.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Датчик <br>для Легковой машины</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 15; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">2111.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Датчик <br>для Легковой машины</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 15; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">2111.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Датчик <br>для Легковой машины</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 15; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+    </div>
+    <h1 style="margin-top: 45px;"><a name="generator3">Генераторы</a></h1>
+    <div class="products">
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">2234.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Генератор <br>для Легковой машины</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>GO53R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 16; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">2234.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Генератор <br>для Легковой машины</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>GO53R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 16; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">2234.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Генератор <br>для Легковой машины</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>GO53R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 16; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">2234.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Генератор <br>для Легковой машины</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>GO53R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 16; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+    </div>
+    <h1 style="margin-top: 45px"><a name="svet3">Светотехника</a></h1>
+    <div class="products">
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">5211.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Фара светодиодная <br>для Легковой машины</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AGO53R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 17; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">5211.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Фара светодиодная <br>для Легковой машины</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AGO53R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 17; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">5211.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Фара светодиодная <br>для Легковой машины</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AGO53R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 17; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">5211.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Фара светодиодная <br>для Легковой машины</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AGO53R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 17; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+    </div>
+    <h1 style="margin-top: 45px"><a name="electro3">Электродвигатели</a></h1>
+    <div class="products">
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">4333.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Батарея <br>для Легковой машины</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 18; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">4333.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Батарея <br>для Легковой машины</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 18; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">4333.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Батарея <br>для Легковой машины</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 18; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">4333.99 ₽</h1>
+            <p style="font-size: 18px; text-align: left; margin-top: 10px; text-align: center;">Батарея <br>для Легковой машины</p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 18; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+    </div>
+    </section>
+
+
+    <section class="best-categories">
+        <h2><a name="selo">Категории | Сельхозтехника</a></h2>
+        <div class="cards">
+            <div class="card">
+                <a href="#start4" alt="Mythrill" target="_self">
+                    <div class="card-icon">
+                        <i class="ri-car-line"></i> 
+                        <h1 style="font-size: 18px; margin-top: 22px;">Стартеры и комплектующие</h1>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#termostat4" alt="Mythrill" target="_self">
+                    <div class="card-icon">
+                        <i class="ri-car-line"></i> 
+                        <h1 style="font-size: 18px; margin-top: 32px;">Термостаты</h1>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#datchik4" alt="Mythrill" target="_self">
+                    <div class="card-icon">
+                        <i class="ri-car-line"></i> 
+                        <h1 style="font-size: 18px; margin-top: 22px;">Датчики<br> и комбинации приборов</h1>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#generator4" alt="Mythrill" target="_self">
+                    <div class="card-icon">
+                        <i class="ri-car-line"></i> 
+                        <h1 style="font-size: 18px; margin-top: 32px;">Генераторы</h1>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#svet4" alt="Mythrill" target="_self">
+                    <div class="card-icon">
+                        <i class="ri-car-line"></i> 
+                        <h1 style="font-size: 18px; margin-top: 32px;">Светотехника</h1>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#electro4" alt="Mythrill" target="_self">
+                    <div class="card-icon">
+                        <i class="ri-car-line"></i> 
+                        <h1 style="font-size: 18px; margin-top: 32px;">Электродвигатели</h1>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+    <h1><a name="start4">Стартеры и комплектующие</a></h1>
+    <div class="products">
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 18; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 18; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 18; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                    <input type="hidden" name="product_id" value="<?php echo 18; ?>">
+                    <input type="submit" value="Добавить в корзину">
+                </form>
+        </div>
+    </div>
+    <h1 style="margin-top: 45px;"><a name="termostat4">Термостаты</a></h1>
+    <div class="products">
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 19; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 19; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 19; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 19; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+    </div>
+    <h1 style="margin-top: 45px;"><a name="datchik4">Датчики и комбинации приборов</a></h1>
+    <div class="products">
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 20; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 20; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 20; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 20; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+    </div>
+    <h1 style="margin-top: 45px;"><a name="generator4">Генераторы</a></h1>
+    <div class="products">
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 21; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 21; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 21; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 21; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+    </div>
+    <h1 style="margin-top: 45px"><a name="svet4">Светотехника</a></h1>
+    <div class="products">
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 22; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 22; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 22; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 22; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+    </div>
+    <h1 style="margin-top: 45px"><a name="electro4">Электродвигатели</a></h1>
+    <div class="products">
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 23; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 23; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 23; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 23; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+    </div>
+    </section>
+
+
+
+    <section class="best-categories">
+        <h2><a name="spec">Категории | Спецтехника</a></h2>
+        <div class="cards">
+            <div class="card">
+                <a href="#start5" alt="Mythrill" target="_self">
+                    <div class="card-icon">
+                        <i class="ri-car-line"></i> 
+                        <h1 style="font-size: 18px; margin-top: 22px;">Стартеры и комплектующие</h1>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#termostat5" alt="Mythrill" target="_self">
+                    <div class="card-icon">
+                        <i class="ri-car-line"></i> 
+                        <h1 style="font-size: 18px; margin-top: 32px;">Термостаты</h1>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#datchik5" alt="Mythrill" target="_self">
+                    <div class="card-icon">
+                        <i class="ri-car-line"></i> 
+                        <h1 style="font-size: 18px; margin-top: 22px;">Датчики<br> и комбинации приборов</h1>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#generator5" alt="Mythrill" target="_self">
+                    <div class="card-icon">
+                        <i class="ri-car-line"></i> 
+                        <h1 style="font-size: 18px; margin-top: 32px;">Генераторы</h1>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#svet5" alt="Mythrill" target="_self">
+                    <div class="card-icon">
+                        <i class="ri-car-line"></i> 
+                        <h1 style="font-size: 18px; margin-top: 32px;">Светотехника</h1>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#electro5" alt="Mythrill" target="_self">
+                    <div class="card-icon">
+                        <i class="ri-car-line"></i> 
+                        <h1 style="font-size: 18px; margin-top: 32px;">Электродвигатели</h1>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+    <h1><a name="start5">Стартеры и комплектующие</a></h1>
+    <div class="products">
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 24; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 24; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 24; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 24; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+    </div>
+    <h1 style="margin-top: 45px;"><a name="termostat5">Термостаты</a></h1>
+    <div class="products">
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 25; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 25; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 25; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 25; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+    </div>
+    <h1 style="margin-top: 45px;"><a name="datchik5">Датчики и комбинации приборов</a></h1>
+    <div class="products">
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 26; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 26; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 26; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 26; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+    </div>
+    <h1 style="margin-top: 45px;"><a name="generator5">Генераторы</a></h1>
+    <div class="products">
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 27; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 27; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 27; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 27; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+    </div>
+    <h1 style="margin-top: 45px"><a name="svet5">Светотехника</a></h1>
+    <div class="products">
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 28; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 28; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 28; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 28; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+    </div>
+    <h1 style="margin-top: 45px"><a name="electro5">Электродвигатели</a></h1>
+    <div class="products">
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 29; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 29; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 29; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 29; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+    </div>
+    </section>
+   
+
+
+    <section class="best-categories">
+        <h2><a name="other">Категории | Другое</a></h2>
+        <div class="cards">
+            <div class="card">
+                <a href="#start6" alt="Mythrill" target="_self">
+                    <div class="card-icon">
+                        <i class="ri-car-line"></i> 
+                        <h1 style="font-size: 18px; margin-top: 22px;">Стартеры и комплектующие</h1>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#termostat6" alt="Mythrill" target="_self">
+                    <div class="card-icon">
+                        <i class="ri-car-line"></i> 
+                        <h1 style="font-size: 18px; margin-top: 32px;">Термостаты</h1>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#datchik6" alt="Mythrill" target="_self">
+                    <div class="card-icon">
+                        <i class="ri-car-line"></i> 
+                        <h1 style="font-size: 18px; margin-top: 22px;">Датчики<br> и комбинации приборов</h1>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#generator6" alt="Mythrill" target="_self">
+                    <div class="card-icon">
+                        <i class="ri-car-line"></i> 
+                        <h1 style="font-size: 18px; margin-top: 32px;">Генераторы</h1>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#svet6" alt="Mythrill" target="_self">
+                    <div class="card-icon">
+                        <i class="ri-car-line"></i> 
+                        <h1 style="font-size: 18px; margin-top: 32px;">Светотехника</h1>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#electro6" alt="Mythrill" target="_self">
+                    <div class="card-icon">
+                        <i class="ri-car-line"></i> 
+                        <h1 style="font-size: 18px; margin-top: 32px;">Электродвигатели</h1>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="magaz">
+    <h1><a name="start6">Стартеры и комплектующие</a></h1>
+    <div class="products">
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 30; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 30; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 30; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 30; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+    </div>
+    <h1 style="margin-top: 45px;"><a name="termostat6">Термостаты</a></h1>
+    <div class="products">
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 31; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 31; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 31; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 31; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+    </div>
+    <h1 style="margin-top: 45px;"><a name="datchik6">Датчики и комбинации приборов</a></h1>
+    <div class="products">
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 32; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 32; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 32; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 32; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+    </div>
+    <h1 style="margin-top: 45px;"><a name="generator6">Генераторы</a></h1>
+    <div class="products">
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 33; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 33; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 33; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 33; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+    </div>
+    <h1 style="margin-top: 45px"><a name="svet6">Светотехника</a></h1>
+    <div class="products">
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 34; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 34; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 34; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 34; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+    </div>
+    <h1 style="margin-top: 45px"><a name="electro6">Электродвигатели</a></h1>
+    <div class="products">
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 35; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 35; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 35; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+        <div class="product">
+            <div class="wrapper">
+              <img src="images/sales.jpg" class="cover-image" />
+            </div>
+            </a>
+            <h1 style="font-size: 20px;margin-top: 10;">999999 ₽</h1>
+            <p style="font-size: 12px; text-align: left; margin-top: 10px;">Фара светодиодная дополнительная круглая, направленный свет, 14 диодов, 42W, (115х42х142) </p>
+            <p style="font-size: 14px; text-align:left; margin-top: 10px;">Номер:<br>AE42R-14LED-42HC</p>
+            <form action="add_to_cart.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo 35; ?>">
+                <input type="submit" value="Добавить в корзину">
+            </form>
+        </div>
+    </div>
+    </section>
+
+   
+    
+
+    
+
+    <script src="script.js"></script>
+
+
+    
+
+
+    <footer>
+        <div class="foot">
+            <div class="firma">
+                <a href="index.html" class="nav-logo"><img src="images/PROTOlogo.png"></a>
+                <h2>С нами вы знаете, как найти выход из любой ситуации</h2>
+                <p>Продажа автозапчастей по всей России</p>
+            </div>
+            <div class="contact">
+                <h3>Контакты</h3>
+                <p><i class="ri-phone-line"></i>+7 (922) 771-88-04</p>
+                <p><i class="ri-mail-line"></i><a class="ref-mail" href="mailto:sokolovskiy@list.ru"> sokolovskiy@list.ru</a></p>
+            </div>
+            <div class="graph">
+                <div class="forma">
+                    <a class="ref-mail" href="mailto:proto@webref.ru">Форма обратной связи</a>
+                </div>
+                <div class="social">
+                    <a href="https://vk.com/Protomera" class="vk" target="_self"><i class="ri-vk-line"></i></a>
+                    <a href= "https://t.me/Protomera" class="tg" target="_self"><i class="ri-telegram-line"></i></a>
+                </div>
+                <div class="time">
+                    <h5>Время работы</h5>
+                    пн.-сб. с 8:00-20:00
+                </div>
+            </div>
+    </footer>
+</body>
+</html>
